@@ -1,0 +1,336 @@
+@font-face {
+  font-family:"Harrington";
+  src:url("HARNGTON.eot?") format("eot"),
+  url("HARNGTON.woff") format("woff"),
+  url("HARNGTON.ttf") format("truetype"),
+  url("HARNGTON.svg#Harrington") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Harrington";
+}
+
+body {
+  background-color: #cd7f32;
+  background-image: url("../img/cutmypic.png");
+}
+
+.nav-top {
+  height: 12.5%;
+  width: 100%;
+  background-color: #000000;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-top div {
+  color: white;
+}
+
+.nav-top a {
+  text-decoration: none;
+  color: white;
+}
+
+.navLeft {
+  padding-top: 2.05%;
+  padding-left: 1.6%;
+  font-size: 20px;
+  width: 40%;
+}
+
+.title {
+  font-size: 45px;
+  align-self: center;
+  width: 20%;
+  text-align: center;
+}
+
+.title a {
+  color: #ffd700;
+}
+
+.navRight {
+  display: flex;
+  width: 40%;
+  font-size: 20px;
+  padding-top: 2.05%;
+  padding-right: 1.6%;
+  justify-content: flex-end;
+}
+
+.navRight div {
+  padding: 0px 2.5px;
+}
+
+.logInFormContainer {
+  background-color: #2C2C2C;
+  width: 30%;
+  height: 70%;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.loginTitle {
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+}
+
+.logInForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logInForm input[type = text], .logInForm input[type=password] {
+  border: 0;
+  display: block;
+  margin: 2% auto;
+  padding: 4% 4%;
+  text-align: center;
+  width: 50%;
+  border-radius: 45px;
+}
+
+.logInForm input[type = submit] {
+  border: 0;
+  background: #988B8B;
+  display: block;
+  margin: 2% auto;
+  padding: 4% 4%;
+  text-align: center;
+  width: 59%;
+  border-radius: 45px;
+
+}
+
+.logInForm input[type = submit]:hover {
+  cursor: pointer;
+}
+
+.logInFormContainer a{
+  color: white;
+  margin-top: 1%;
+}
+
+.logInFormContainer a:visited {
+  color: white;
+}
+
+
+.container {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  background-color: black;
+  bottom: 0;
+}
+
+.container h3{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.container h4{
+  text-align: left;
+  font-size: 15px;
+  color: white;
+}
+
+.container p{
+  text-align: justify;
+  font-size: 15px;
+  color: white;
+}
+
+.announcement {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 0.1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  background-color: #424242;
+}
+
+.contact{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #424242;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  padding-left: 8%;
+  padding-bottom: 3%;
+  padding-right: 8%;
+  padding-top: 1%;
+
+}
+
+.contact h4{
+  margin-bottom: 1%;
+}
+
+.contact select{
+  width: 100%;
+  font-family: Arial;
+}
+
+.contact input, textarea{
+  width: 100%;
+  font-family: Arial;
+}
+
+.contact input[type = submit] {
+  background: #988B8B;
+  display: block;
+  margin: 1% auto;
+  padding: 2% 1%;
+  text-align: center;
+  width: 40%;
+  border-radius: 45px;
+  color: white;
+  border: 0;
+}
+
+.contact input[type = submit]:hover {
+  cursor: pointer;
+}
+
+.preferences{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1%;
+
+}
+
+.preferences input[type = radio]{
+  color: white;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.preferences input[type = checkbox]{
+  color: white;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.preferences form{
+  color: white;
+  display: flex;
+}
+
+.preferences textarea{
+  width: 100%;
+  font-family: Arial;
+}
+
+.preferences input{
+  font-family: Arial;
+  color: white;
+}
+
+.preferences input[type = submit] {
+  background: white;;
+  color: black;
+  display: block;
+  margin: 1% auto;
+  padding: 2% 1%;
+  text-align: center;
+  width: 40%;
+  border-radius: 45px;
+  border: 0;
+}
+
+.preferences input[type = submit]:hover {
+  cursor: pointer;
+}
+
+.profileInfo {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  background-color: black;
+  bottom: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.headingAndQR {
+  width: 100%;
+  text-align: center;
+}
+
+.headingAndQR img {
+  width: 350px;
+  height: 350px;
+}
+
+.headingAndQR h1 {
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.details {
+  width: 80%;
+  border: 1px solid lightgray;
+  margin: auto;
+  margin-top: 3%;
+  font-family: arial, sans-serif;
+}
+
+.detailsLeft {
+  width: 30%;
+  float: left;
+}
+
+.details p {
+  margin: 12.5px;
+}
+
+.detailsLeft p {
+  text-align: right;
+}
+
+.detailsRight {
+  width: 70%;
+  float: right;
+}
+
+.associatedPlayers table {
+  border-collapse: collapse;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.associatedPlayers tr, td, th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.associatedPlayers h1 {
+  text-align: center;
+}
